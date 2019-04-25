@@ -149,7 +149,7 @@ battle: function(players) {
 
 # Deploying to Firebase
 
- ```
+ ```javascript
  npm install --save-dev firebase-tools
 
 

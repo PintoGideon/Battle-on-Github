@@ -1,15 +1,14 @@
-# Establishing the fundamentals of React
+Worked on this during my Netflix and Skill (which means learning through video) as a famous person on Github would call it. Also, I was currently going through Ryan's Florence React Training and could not keep up with a few patterns so just came back to the fundamentals for a refresher. 
 
-Worked on this during my Netflix and Skill (which means through a video) as a famous person on Github would call it. Also, I was currently going through Ryan's Florence React Training and could not keep up with a few patterns so just came back to the fundamentals for a refresher. 
+# Establishing the fundamentals of React
 
 Webpack is a module bundler. It takes all the modules and intelligently bundles
 them so we can reference them from a single file. Tyler Mcginnis created the webpack.config.js file from scratch which was pretty cool to learn. 
 
-
 The same intuition you have about functions is the same you need to have about
 Components.
 
-# this keyword
+# 'this' keyword
 
 It allows us to decide which object should be focal
 when a function or a method is called. Where is this function invoked? We won't know that the this keyword is
@@ -67,9 +66,6 @@ var Animal = function(color, name) {
 
 var zebra = new Animal('Black and White', 'Zorro');
 ```
-
-# Lifecycle methods
-
 componentDidMount is going to be invoked when the components mounts into the screen.
 
 # Breaking down the Logic for the Battle component

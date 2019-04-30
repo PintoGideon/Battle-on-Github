@@ -1,7 +1,7 @@
 var axios = require('axios');
 
-var id = '9e1d35b6a0674ad2d4f8';
-var secret = 'f4cef08979fbc07ad49289b139678a53c5f54b3f';
+var id = '';
+var secret = '';
 
 var params = '?client_id=' + id + '&client_secret=' + secret;
 
